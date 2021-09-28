@@ -1,0 +1,515 @@
+/* This is my css for my computer repair company*/
+
+*{
+  margin:0;
+  padding:0;
+  font-family: "Arial" , sans-serif;
+}
+
+@font-face{
+font-family:"Anton";
+src: url("font/Anton-Regular.ttf");
+}
+
+header{
+  width:100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: linear-gradient(-40deg , #30555a, #36353c);
+}
+
+h1{
+  font-family: 'Anton',sans-serif;
+  font-weight: normal;
+  font-size:55px;
+  color:#ffc04c;
+  text-align: center;
+}
+
+p{
+  font-size: 22px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+h2{
+  font-family: 'Anton',sans-serif;
+  font-weight: normal;
+  font-size:45px;
+  padding:0 0 10px 10px;
+  border-bottom: 2px solid #36353c;
+  border-left: 2px solid #36353c;
+}
+
+.small-margin{
+  margin-left: 20px;
+}
+
+.allign-Textbox{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.orange-span{
+  font-family: 'Anton',sans-serif;
+  font-weight: normal;
+  font-size:45px;
+  color:#ffc04c;
+}
+
+.background-image-container{
+  height:160px;
+  padding-top: 10px;
+  background-image: url('images/banner.jpg'); /*I got this image from https://www.google.com/search?q=computer+tile+wallpaper&tbm=isch&ved=2ahUKEwjMjNyC_ontAhUQZBUIHTfuCWoQ2-cCegQIABAA&oq=computer+tile+wallpaper&gs_lcp=CgNpbWcQAzIGCAAQCBAeUNXxAljuggNgoYQDaABwAHgAgAGFAYgBhweSAQM1LjSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=WvizX8z3LpDI1fAPt9yn0AY&bih=937&biw=1903&hl=en-GB#imgrc=dI-J6lVw7YVEkM */
+}
+
+.nav-container{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo{
+  float: left;
+  height:150px;
+  margin-right: 80px;
+}
+
+nav{
+  width: 100%;
+}
+
+nav ul{
+  display: flex;
+  list-style-type:none;
+  padding-top: 50px;
+}
+
+nav li{
+  flex:1;
+}
+
+nav a:hover{
+  box-shadow: 7px 18px #484848;
+}
+
+a{
+  color:#ffc04c;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration:underline;
+  color: #ffffff;
+}
+
+.formHover:hover{
+  text-decoration:underline;
+  color: #ffffff;
+}
+
+.nav-container a{
+  width: 100%;
+  background: linear-gradient(-40deg , #30555a, #36353c);
+  text-align: center;
+  padding:10px 80px 10px 80px;
+  box-shadow: 5px 10px #484848;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 2px solid #ffc04c;
+}
+
+.active a:hover{
+  color: #ffc04c;
+}
+
+.active{
+  color: #ffc04c;
+  text-decoration: underline;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.banner-wrapper{
+  width: 100%;
+  height:40px;
+  background: linear-gradient(-40deg , #30555a, #36353c);
+}
+
+.main-background{
+  background-color: #929292;
+  height:700px;
+}
+
+.main{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: : 80px;
+}
+
+.main-image-container{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width:920px;
+  height: auto;
+  margin-bottom: 40px;
+  border: 2px solid #ffc04c;
+}
+
+.image-text-box{
+  background-color: blue;
+  opacity: 0.3;
+  position: absolute;
+  left:0;
+  bottom: 0;
+  right: 0;
+  top: 60%;
+}
+
+.main-image-container > p{
+  position: absolute;
+  left:0;
+  bottom: 0;
+  right: 0;
+  top: 70%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.heading{
+  width:700px;
+  margin-bottom:20px;
+}
+
+Article{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+
+Aside{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+
+.formButtons{
+  color:#ffc04c;
+  background: linear-gradient(-40deg , #30555a, #36353c);
+  text-align: center;
+  margin-top: 10px;
+  padding:10px 40px 10px 40px;
+  box-shadow: 5px 10px #484848;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 2px solid #ffc04c;
+}
+
+.textBoxes{
+float:right;
+}
+
+.Top-left,
+.Bottom-left,
+.Top-right{
+  padding-right: 90px;
+}
+
+.Bottom-left,
+.Bottom-right{
+  padding-top: 80px;
+  padding-right: 80px;
+}
+
+.float-left{
+  float:left;
+}
+
+.review-div{
+  margin:0 0 40px 40px;
+  float: right;
+}
+
+.align-center{
+  display: flex;
+  margin-top: 10px;
+}
+
+.time-list{
+  flex:1;
+  color:#ffc04c;
+  font-size: 20px;
+}
+
+table{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.table-align{
+  padding-left:120px;
+  padding-top:100px;
+}
+
+.info-align{
+  padding-left:120px;
+}
+
+
+.price-list{
+  flex:1;
+  order:2;
+  color:#ffc04c;
+  font-size: 20px;
+}
+
+.google-maps{
+  margin-top: 15px;
+  position: relative;
+}
+
+.google-maps iframe {
+  border:3px solid #ffc04c;
+  padding: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+.geo{
+  flex:1;
+  order:3;
+  color:#ffc04c;
+}
+
+.geo p{
+  color:#ffc04c;
+}
+
+.geo button{
+ font-family: 'Anton',sans-serif;
+ color:#ffc04c;
+ background-color:rgb(103,103,103);
+ border-radius: 6px;
+ font-size: 16px;
+}
+
+.geo-span{
+  text-decoration:underline;
+  color:#ffffff;
+}
+
+.align-center > div{
+  width: 300px;
+}
+
+footer{
+background-color:rgb(103,103,103);
+padding: 40px;
+color:#ffffff;
+}
+
+.icons{
+float: right;
+margin-right: 5px;
+}
+
+footer li{
+list-style-type: none;
+padding-left:100px;
+}
+
+.Email-Link{
+text-align:right;
+font-size:17px;
+margin:0 40px 40px 0;
+}
+
+.Email-Link a{
+  text-decoration:underline;
+}
+
+#Copyright-Info{
+  position:fixed;
+  bottom:0px;
+  padding-top:20px;
+  padding-bottom:20px;
+  width:100%;
+  background-color: grey;
+  text-align:center;
+  color:#ccc;
+}
+
+@media screen and (max-width:1570px){
+
+  .nav-container a{
+    padding:10px 30px 10px 30px;
+  }
+
+  h2{
+    font-size: 32px;
+  }
+
+  .orange-span{
+    font-size: 32px;
+  }
+
+  .twitter-timeline{
+    height:100px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+  .heading{
+    width: 500px;
+    position: relative;
+    overflow: hidden;
+  }
+
+}
+
+@media screen and (max-width:1250px){
+  .nav-container a{
+    padding:10px 10px 10px 10px;
+  }
+
+  .main-images{
+    display: none;
+  }
+
+  p{
+    font-size: 18px;
+  }
+
+  .heading{
+    width: 400px;
+  }
+
+  .main-image-container{
+    width: 640px;
+  }
+
+  .main-image-container > p{
+    font-size: 30px;
+  }
+
+  .geo button{
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width:980px){
+
+  .background-image-container{
+    height:200px;
+  }
+
+  .logo{
+    display: none;
+  }
+
+  nav li{
+    display:flex;
+  }
+
+  nav ul{
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .main{
+    flex-direction: column;
+  }
+
+  .main-background{
+    height: 1300px;
+  }
+
+  article{
+    padding-top: 80px;
+    order:2;
+  }
+
+  .Email-Link{
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 20px;
+  }
+
+  .Top-left,
+  .Bottom-left{
+    padding-right: 0;
+  }
+
+  .main{
+    display: flex;
+    justify-content:center;
+  }
+
+  .review-div{
+    clear: both;
+    order:2;
+    margin: auto;
+    padding-top: 100px;
+  }
+
+  .heading{
+    width: 600px;
+  }
+
+.align-center > div{
+  margin-top: 40px;
+}
+
+  .google-maps{
+    margin-top: 40px;
+  }
+
+  .align-center{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:780px){
+  .main-background{
+    height: 1500px;
+  }
+
+  .heading{
+    width: 400px;
+  }
+
+  .review-div{
+    clear: both;
+  }
+
+  .main-image-container{
+    width: 400px;
+  }
+
+  .main-image-container p{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:480px){
+  .Bottom-left{
+    display: none;
+  }
+
+  .geo{
+    display: none;
+  }
+}
